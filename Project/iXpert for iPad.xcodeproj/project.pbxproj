@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110AFCCA151A6C83001423D9 /* HowtoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110AFCC8151A6C83001423D9 /* HowtoViewController.m */; };
+		110AFCCB151A6C83001423D9 /* HowtoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110AFCC9151A6C83001423D9 /* HowtoViewController.xib */; };
+		11B683B3150CF7B000E05B60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B683B2150CF7B000E05B60 /* UIKit.framework */; };
+		11B683B5150CF7B000E05B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B683B4150CF7B000E05B60 /* Foundation.framework */; };
+		11B683B7150CF7B000E05B60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B683B6150CF7B000E05B60 /* CoreGraphics.framework */; };
+		11B683BD150CF7B000E05B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11B683BB150CF7B000E05B60 /* InfoPlist.strings */; };
+		11B683BF150CF7B000E05B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683BE150CF7B000E05B60 /* main.m */; };
+		11B683C3150CF7B000E05B60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683C2150CF7B000E05B60 /* AppDelegate.m */; };
+		11B683CA150CFA3300E05B60 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B683C9150CFA3300E05B60 /* MainWindow.xib */; };
+		11B683DD150CFFE400E05B60 /* Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683DA150CFFE400E05B60 /* Hashes.m */; };
+		11B683DE150CFFE400E05B60 /* RatingSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683DC150CFFE400E05B60 /* RatingSystem.m */; };
+		11B683E4150D008E00E05B60 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683E2150D008E00E05B60 /* OptionViewController.m */; };
+		11B683E5150D008E00E05B60 /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B683E3150D008E00E05B60 /* OptionViewController.xib */; };
+		11B683F7150D015E00E05B60 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B683F6150D015E00E05B60 /* MasterViewController.m */; };
+		11B6AE20151909FB008A1E1B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B6AE1F151909FB008A1E1B /* Default-Portrait~ipad.png */; };
+		11B99B42151BC26100C8D69D /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B99B41151BC26100C8D69D /* Background.png */; };
+		11C4C0941512733200EA5B91 /* Button B64 Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0801512733200EA5B91 /* Button B64 Norm.png */; };
+		11C4C0951512733200EA5B91 /* Button B64 Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0811512733200EA5B91 /* Button B64 Sele.png */; };
+		11C4C0961512733200EA5B91 /* Button Bin Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0821512733200EA5B91 /* Button Bin Norm.png */; };
+		11C4C0971512733200EA5B91 /* Button Bin Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0831512733200EA5B91 /* Button Bin Sele.png */; };
+		11C4C0981512733200EA5B91 /* Button Dec Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0841512733200EA5B91 /* Button Dec Norm.png */; };
+		11C4C0991512733200EA5B91 /* Button Dec Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0851512733200EA5B91 /* Button Dec Sele.png */; };
+		11C4C09A1512733200EA5B91 /* Button Enc Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0861512733200EA5B91 /* Button Enc Norm.png */; };
+		11C4C09B1512733200EA5B91 /* Button Enc Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0871512733200EA5B91 /* Button Enc Sele.png */; };
+		11C4C09C1512733200EA5B91 /* Button Hex Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0881512733200EA5B91 /* Button Hex Norm.png */; };
+		11C4C09D1512733200EA5B91 /* Button Hex Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0891512733200EA5B91 /* Button Hex Sele.png */; };
+		11C4C0A01512733200EA5B91 /* Button Loo Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C08C1512733200EA5B91 /* Button Loo Norm.png */; };
+		11C4C0A11512733200EA5B91 /* Button Loo Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C08D1512733200EA5B91 /* Button Loo Sele.png */; };
+		11C4C0A21512733200EA5B91 /* Button MD5 Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C08E1512733200EA5B91 /* Button MD5 Norm.png */; };
+		11C4C0A31512733200EA5B91 /* Button MD5 Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C08F1512733200EA5B91 /* Button MD5 Sele.png */; };
+		11C4C0A41512733200EA5B91 /* Button Oct Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0901512733200EA5B91 /* Button Oct Norm.png */; };
+		11C4C0A51512733200EA5B91 /* Button Oct Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0911512733200EA5B91 /* Button Oct Sele.png */; };
+		11C4C0A61512733200EA5B91 /* Button Rev Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0921512733200EA5B91 /* Button Rev Norm.png */; };
+		11C4C0A71512733200EA5B91 /* Button Rev Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C4C0931512733200EA5B91 /* Button Rev Sele.png */; };
+		11D23856151FA8C200427740 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23852151FA8C200427740 /* Icon-Small-50.png */; };
+		11D23857151FA8C200427740 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23853151FA8C200427740 /* Icon-Small.png */; };
+		11D23858151FA8C200427740 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 11D23854151FA8C200427740 /* iTunesArtwork */; };
+		11D2385A151FA8DC00427740 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23859151FA8DC00427740 /* Icon-72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110AFCC7151A6C83001423D9 /* HowtoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowtoViewController.h; sourceTree = "<group>"; };
+		110AFCC8151A6C83001423D9 /* HowtoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowtoViewController.m; sourceTree = "<group>"; };
+		110AFCC9151A6C83001423D9 /* HowtoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowtoViewController.xib; sourceTree = "<group>"; };
+		11B683AE150CF7B000E05B60 /* iXpert for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iXpert for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B683B2150CF7B000E05B60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11B683B4150CF7B000E05B60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11B683B6150CF7B000E05B60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11B683BA150CF7B000E05B60 /* iXpert for iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iXpert for iPad-Info.plist"; sourceTree = "<group>"; };
+		11B683BC150CF7B000E05B60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11B683BE150CF7B000E05B60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B683C0150CF7B000E05B60 /* iXpert for iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iXpert for iPad-Prefix.pch"; sourceTree = "<group>"; };
+		11B683C1150CF7B000E05B60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11B683C2150CF7B000E05B60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11B683C9150CFA3300E05B60 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		11B683D9150CFFE400E05B60 /* Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hashes.h; sourceTree = "<group>"; };
+		11B683DA150CFFE400E05B60 /* Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hashes.m; sourceTree = "<group>"; };
+		11B683DB150CFFE400E05B60 /* RatingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingSystem.h; sourceTree = "<group>"; };
+		11B683DC150CFFE400E05B60 /* RatingSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingSystem.m; sourceTree = "<group>"; };
+		11B683E1150D008D00E05B60 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		11B683E2150D008E00E05B60 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		11B683E3150D008E00E05B60 /* OptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionViewController.xib; sourceTree = "<group>"; };
+		11B683F5150D015D00E05B60 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		11B683F6150D015E00E05B60 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		11B6AE1F151909FB008A1E1B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		11B99B41151BC26100C8D69D /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		11C4C0801512733200EA5B91 /* Button B64 Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button B64 Norm.png"; sourceTree = "<group>"; };
+		11C4C0811512733200EA5B91 /* Button B64 Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button B64 Sele.png"; sourceTree = "<group>"; };
+		11C4C0821512733200EA5B91 /* Button Bin Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Bin Norm.png"; sourceTree = "<group>"; };
+		11C4C0831512733200EA5B91 /* Button Bin Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Bin Sele.png"; sourceTree = "<group>"; };
+		11C4C0841512733200EA5B91 /* Button Dec Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Dec Norm.png"; sourceTree = "<group>"; };
+		11C4C0851512733200EA5B91 /* Button Dec Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Dec Sele.png"; sourceTree = "<group>"; };
+		11C4C0861512733200EA5B91 /* Button Enc Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Enc Norm.png"; sourceTree = "<group>"; };
+		11C4C0871512733200EA5B91 /* Button Enc Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Enc Sele.png"; sourceTree = "<group>"; };
+		11C4C0881512733200EA5B91 /* Button Hex Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Hex Norm.png"; sourceTree = "<group>"; };
+		11C4C0891512733200EA5B91 /* Button Hex Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Hex Sele.png"; sourceTree = "<group>"; };
+		11C4C08C1512733200EA5B91 /* Button Loo Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Loo Norm.png"; sourceTree = "<group>"; };
+		11C4C08D1512733200EA5B91 /* Button Loo Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Loo Sele.png"; sourceTree = "<group>"; };
+		11C4C08E1512733200EA5B91 /* Button MD5 Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button MD5 Norm.png"; sourceTree = "<group>"; };
+		11C4C08F1512733200EA5B91 /* Button MD5 Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button MD5 Sele.png"; sourceTree = "<group>"; };
+		11C4C0901512733200EA5B91 /* Button Oct Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Oct Norm.png"; sourceTree = "<group>"; };
+		11C4C0911512733200EA5B91 /* Button Oct Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Oct Sele.png"; sourceTree = "<group>"; };
+		11C4C0921512733200EA5B91 /* Button Rev Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Rev Norm.png"; sourceTree = "<group>"; };
+		11C4C0931512733200EA5B91 /* Button Rev Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Rev Sele.png"; sourceTree = "<group>"; };
+		11D23852151FA8C200427740 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		11D23853151FA8C200427740 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		11D23854151FA8C200427740 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		11D23859151FA8DC00427740 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B683AB150CF7B000E05B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B683B3150CF7B000E05B60 /* UIKit.framework in Frameworks */,
+				11B683B5150CF7B000E05B60 /* Foundation.framework in Frameworks */,
+				11B683B7150CF7B000E05B60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B683A3150CF7AF00E05B60 = {
+			isa = PBXGroup;
+			children = (
+				11B683B8150CF7B000E05B60 /* iXpert for iPad */,
+				11B683B1150CF7B000E05B60 /* Frameworks */,
+				11B683AF150CF7B000E05B60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B683AF150CF7B000E05B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B683AE150CF7B000E05B60 /* iXpert for iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B683B1150CF7B000E05B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B683B2150CF7B000E05B60 /* UIKit.framework */,
+				11B683B4150CF7B000E05B60 /* Foundation.framework */,
+				11B683B6150CF7B000E05B60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11B683B8150CF7B000E05B60 /* iXpert for iPad */ = {
+			isa = PBXGroup;
+			children = (
+				11B683DF150CFFE800E05B60 /* Hashes Functions */,
+				11B683E0150CFFFD00E05B60 /* RatingSystem */,
+				11B683C1150CF7B000E05B60 /* AppDelegate.h */,
+				11B683C2150CF7B000E05B60 /* AppDelegate.m */,
+				11B683F5150D015D00E05B60 /* MasterViewController.h */,
+				11B683F6150D015E00E05B60 /* MasterViewController.m */,
+				11B683E1150D008D00E05B60 /* OptionViewController.h */,
+				11B683E2150D008E00E05B60 /* OptionViewController.m */,
+				110AFCC7151A6C83001423D9 /* HowtoViewController.h */,
+				110AFCC8151A6C83001423D9 /* HowtoViewController.m */,
+				11B683B9150CF7B000E05B60 /* Supporting Files */,
+			);
+			path = "iXpert for iPad";
+			sourceTree = "<group>";
+		};
+		11B683B9150CF7B000E05B60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B683D1150CFD1300E05B60 /* Images */,
+				11B683CB150CFB0100E05B60 /* Xib */,
+				11B683BA150CF7B000E05B60 /* iXpert for iPad-Info.plist */,
+				11B683BB150CF7B000E05B60 /* InfoPlist.strings */,
+				11B683BE150CF7B000E05B60 /* main.m */,
+				11B683C0150CF7B000E05B60 /* iXpert for iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B683CB150CFB0100E05B60 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				11B683C9150CFA3300E05B60 /* MainWindow.xib */,
+				11B683E3150D008E00E05B60 /* OptionViewController.xib */,
+				110AFCC9151A6C83001423D9 /* HowtoViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		11B683D1150CFD1300E05B60 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11B726D21513D5DC00F265E0 /* Backgrounds */,
+				11C4C05515126DE100EA5B91 /* Buttons */,
+				11B683D2150CFD1D00E05B60 /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		11B683D2150CFD1D00E05B60 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				11D23859151FA8DC00427740 /* Icon-72.png */,
+				11D23852151FA8C200427740 /* Icon-Small-50.png */,
+				11D23853151FA8C200427740 /* Icon-Small.png */,
+				11D23854151FA8C200427740 /* iTunesArtwork */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		11B683DF150CFFE800E05B60 /* Hashes Functions */ = {
+			isa = PBXGroup;
+			children = (
+				11B683D9150CFFE400E05B60 /* Hashes.h */,
+				11B683DA150CFFE400E05B60 /* Hashes.m */,
+			);
+			name = "Hashes Functions";
+			sourceTree = "<group>";
+		};
+		11B683E0150CFFFD00E05B60 /* RatingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				11B683DB150CFFE400E05B60 /* RatingSystem.h */,
+				11B683DC150CFFE400E05B60 /* RatingSystem.m */,
+			);
+			name = RatingSystem;
+			sourceTree = "<group>";
+		};
+		11B726D21513D5DC00F265E0 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				11B6AE1F151909FB008A1E1B /* Default-Portrait~ipad.png */,
+				11B99B41151BC26100C8D69D /* Background.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		11C4C05515126DE100EA5B91 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				11C4C0801512733200EA5B91 /* Button B64 Norm.png */,
+				11C4C0811512733200EA5B91 /* Button B64 Sele.png */,
+				11C4C0821512733200EA5B91 /* Button Bin Norm.png */,
+				11C4C0831512733200EA5B91 /* Button Bin Sele.png */,
+				11C4C0841512733200EA5B91 /* Button Dec Norm.png */,
+				11C4C0851512733200EA5B91 /* Button Dec Sele.png */,
+				11C4C0861512733200EA5B91 /* Button Enc Norm.png */,
+				11C4C0871512733200EA5B91 /* Button Enc Sele.png */,
+				11C4C0881512733200EA5B91 /* Button Hex Norm.png */,
+				11C4C0891512733200EA5B91 /* Button Hex Sele.png */,
+				11C4C08C1512733200EA5B91 /* Button Loo Norm.png */,
+				11C4C08D1512733200EA5B91 /* Button Loo Sele.png */,
+				11C4C08E1512733200EA5B91 /* Button MD5 Norm.png */,
+				11C4C08F1512733200EA5B91 /* Button MD5 Sele.png */,
+				11C4C0901512733200EA5B91 /* Button Oct Norm.png */,
+				11C4C0911512733200EA5B91 /* Button Oct Sele.png */,
+				11C4C0921512733200EA5B91 /* Button Rev Norm.png */,
+				11C4C0931512733200EA5B91 /* Button Rev Sele.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B683AD150CF7B000E05B60 /* iXpert for iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B683C6150CF7B000E05B60 /* Build configuration list for PBXNativeTarget "iXpert for iPad" */;
+			buildPhases = (
+				11B683AA150CF7B000E05B60 /* Sources */,
+				11B683AB150CF7B000E05B60 /* Frameworks */,
+				11B683AC150CF7B000E05B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iXpert for iPad";
+			productName = "iXpert for iPad";
+			productReference = 11B683AE150CF7B000E05B60 /* iXpert for iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B683A5150CF7AF00E05B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 11B683A8150CF7AF00E05B60 /* Build configuration list for PBXProject "iXpert for iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11B683A3150CF7AF00E05B60;
+			productRefGroup = 11B683AF150CF7B000E05B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B683AD150CF7B000E05B60 /* iXpert for iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B683AC150CF7B000E05B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B683BD150CF7B000E05B60 /* InfoPlist.strings in Resources */,
+				11B683CA150CFA3300E05B60 /* MainWindow.xib in Resources */,
+				11B683E5150D008E00E05B60 /* OptionViewController.xib in Resources */,
+				11C4C0941512733200EA5B91 /* Button B64 Norm.png in Resources */,
+				11C4C0951512733200EA5B91 /* Button B64 Sele.png in Resources */,
+				11C4C0961512733200EA5B91 /* Button Bin Norm.png in Resources */,
+				11C4C0971512733200EA5B91 /* Button Bin Sele.png in Resources */,
+				11C4C0981512733200EA5B91 /* Button Dec Norm.png in Resources */,
+				11C4C0991512733200EA5B91 /* Button Dec Sele.png in Resources */,
+				11C4C09A1512733200EA5B91 /* Button Enc Norm.png in Resources */,
+				11C4C09B1512733200EA5B91 /* Button Enc Sele.png in Resources */,
+				11C4C09C1512733200EA5B91 /* Button Hex Norm.png in Resources */,
+				11C4C09D1512733200EA5B91 /* Button Hex Sele.png in Resources */,
+				11C4C0A01512733200EA5B91 /* Button Loo Norm.png in Resources */,
+				11C4C0A11512733200EA5B91 /* Button Loo Sele.png in Resources */,
+				11C4C0A21512733200EA5B91 /* Button MD5 Norm.png in Resources */,
+				11C4C0A31512733200EA5B91 /* Button MD5 Sele.png in Resources */,
+				11C4C0A41512733200EA5B91 /* Button Oct Norm.png in Resources */,
+				11C4C0A51512733200EA5B91 /* Button Oct Sele.png in Resources */,
+				11C4C0A61512733200EA5B91 /* Button Rev Norm.png in Resources */,
+				11C4C0A71512733200EA5B91 /* Button Rev Sele.png in Resources */,
+				11B6AE20151909FB008A1E1B /* Default-Portrait~ipad.png in Resources */,
+				110AFCCB151A6C83001423D9 /* HowtoViewController.xib in Resources */,
+				11B99B42151BC26100C8D69D /* Background.png in Resources */,
+				11D23856151FA8C200427740 /* Icon-Small-50.png in Resources */,
+				11D23857151FA8C200427740 /* Icon-Small.png in Resources */,
+				11D23858151FA8C200427740 /* iTunesArtwork in Resources */,
+				11D2385A151FA8DC00427740 /* Icon-72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B683AA150CF7B000E05B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B683BF150CF7B000E05B60 /* main.m in Sources */,
+				11B683C3150CF7B000E05B60 /* AppDelegate.m in Sources */,
+				11B683DD150CFFE400E05B60 /* Hashes.m in Sources */,
+				11B683DE150CFFE400E05B60 /* RatingSystem.m in Sources */,
+				11B683E4150D008E00E05B60 /* OptionViewController.m in Sources */,
+				11B683F7150D015E00E05B60 /* MasterViewController.m in Sources */,
+				110AFCCA151A6C83001423D9 /* HowtoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B683BB150CF7B000E05B60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B683BC150CF7B000E05B60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B683C4150CF7B000E05B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		11B683C5150CF7B000E05B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B683C7150CF7B000E05B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXpert for iPad/iXpert for iPad-Prefix.pch";
+				INFOPLIST_FILE = "iXpert for iPad/iXpert for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11B683C8150CF7B000E05B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXpert for iPad/iXpert for iPad-Prefix.pch";
+				INFOPLIST_FILE = "iXpert for iPad/iXpert for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B683A8150CF7AF00E05B60 /* Build configuration list for PBXProject "iXpert for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B683C4150CF7B000E05B60 /* Debug */,
+				11B683C5150CF7B000E05B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B683C6150CF7B000E05B60 /* Build configuration list for PBXNativeTarget "iXpert for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B683C7150CF7B000E05B60 /* Debug */,
+				11B683C8150CF7B000E05B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B683A5150CF7AF00E05B60 /* Project object */;
+}
